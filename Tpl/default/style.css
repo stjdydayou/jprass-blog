@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+/**************** 标签默认 ****************/
+*{margin:0;padding:0;}
+body{color:#333;min-width: 980px;background:#FFF;font-family: Verdana,Arial,Helvetica,sans-serif;font-size:10pt;line-height:1.8em;}
+img{border:0;}
+li{list-style:none;}
+input,textarea{border:1px solid #999;}
+h1,h2,h3,h4,h5,h6,th{font-weight:bold;color:#000;}
+a{text-decoration:none;color:#333;}
+a:hover{color:#999;}
+.clear {clear: both;height:0}
+
+.header {background:#F9F9F9;}
+.header .blog-title{padding:16px;}
+.header .blog-title .title a{font-size:17pt; line-height:40px;}
+.header .blog-title .sub-title{color:#999}
+
+.navigator {background: #f6f6f6;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;height: 30px;line-height: 30px;color: #999;padding: 2px 5px 0 15px;}
+.navigator ul li {float: left;margin-right: 20px;font-size: 10.5pt;}
+.navigator .blog-states {float: right;color: #999;}
+.container{margin:10px 310px 20px 25px ;min-width: 600px;overflow-x: hidden}
+.container a{border-bottom:1px dotted #333;}
+
+.sidebar{width:300px;float: right;border: 1px solid #CCCCCC;border-top:none;border-right:none;padding: 0;}
+
+.sidebar .baidu-ad{width: 300px;height:250px;}
+.sidebar dl dt{background: #F6F6F6;border-bottom: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;line-height: 30px;text-indent: 10px;font-weight:800}
+.sidebar dl dd{padding:10px;line-height:2em;}
+.sidebar dl dd a{border-bottom:1px dotted #333;}
+.sidebar dl dd span{display:inline-block;width: 136px;}
+.sidebar dl dd p{display:block;}
+
+.list-article{border-bottom: 1px dotted #999;}
+.list-article dt{font-size: 14px;font-weight: bold;margin: 20px 0 10px;}
+.list-article dt a{color:#105CB6;font-size: 14px;font-weight: bold;}
+.list-article dt a:hover {color: red;text-decoration: underline;}
+.list-article dd .excerpt{line-height:25px;}
+.list-article dd .info{color: #999;}
+
+.article h1{font-size: 14px;font-weight: bold;margin: 20px 0 0 0;line-height: 30px;}
+.article h1 a{border-bottom: none}
+.article .info{color: #999;}
+.article .content{border-top: 1px solid #ccc;padding:10px 0;margin-top: 10px;}
+.article p{margin: 10px 0;}
+.article .copyright{background: #fafafa;padding: 10px;border:1px dashed #aaa}
+
+
+.comments{border-top: 1px solid #ccc;margin-top: 20px;}
+.comments h2{font-size: 14px;font-weight: bold;line-height: 30px;}
+.comments h2 a{font-weight:normal;}
+.comments .alt{background:#fafafa}
+.comments dl{margin-bottom: 10px;padding: 10px;}
+.comments dt{line-height:30px}
+.comments dt cite{color: #999}
+
+#comment-form textarea, input.text {padding: 5px;}
+#comment-form .author-info{height:60px;width: 100%;overflow:hidden;}
+#comment-form .author-info div{width: 30%;float: left}
+#comment-form .author-info label{display: block}
+#comment-form .author-info input.text {width: 80%;}
+#comment-form textarea {width: 90%;height: 80px;resize: none}
+
+
+.btn{
+    padding: 5px 15px;background-color: #f5f5f5;color: #333;display: inline-block;
+    border-radius: 3px 3px;cursor: pointer;margin: 5px;background-color: #0079bc;
+    color: #fff;border: none;display:line-break;
+}
+.btn:hover {
+    background-color: #00509d;
+    color: #fff;
+}
+
+.archives{line-height:30px;}
+.archives strong{font-size:12pt;display:block}
+.archives span{display: inline-block; width: 200px;}
+
+.tag a{display: inline-block;margin:5px;}
+
+.footer{padding:16px;background: #f6f6f6;border-top: 1px solid #ccc;margin-top: 10px;}
+
+.div-pager{clear:both;padding:10px 15px;}
+.div-pager span,.div-pager a{line-height: 22px;height: 22px;display: inline-block;border: 1px solid #ccc;background: #fff;padding: 0 10px;margin-right: 3px;}
+.div-pager .current_page {background: #315ca1;color: #fff;font-weight: bold;}
+.div-pager span{color:#999}
+
+.validator-error{padding: 6px 12px;display: block;line-height: 180%;background: #ffe5ed;border-radius: 4px;color: darkred;margin:10px;}
