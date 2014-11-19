@@ -1,0 +1,124 @@
+a{text-decoration: none;color: #175796;}
+a:hover{text-decoration: underline}
+body{background:#efefef;font-size:12px;height:auto;margin: 0;padding: 0;font-size: 12px;font-family: "lucida Grande",Verdana;}
+ul,li,dl,dd,dt {list-style: none;margin: 0;padding: 0;}
+.f-left {float: left;}
+.f-right {float: right;}
+.wd {width: 980px;margin: 0 auto;clear: both;} 
+cite {color: #777;font-style: normal;font-size: 13px;font-weight: normal;margin-left: 5px;}
+
+.form input[type="text"], 
+.form input[type="password"], 
+.form textarea, 
+.form select {
+	display: inline-block; 
+	padding: 3px; 
+	margin: 0 0 8px 0; 
+	color: #4d4d4d; 
+	border: 1px solid #c9c9c9; 
+	border-radius:3px 3px;
+	resize: none}
+
+.form textarea{overflow: auto}
+.form input[type="text"], 
+.form input[type="password"],
+.form select{height: 20px;}
+
+.form input[type="radio"], input[type="checkbox"] { display: inline-block; margin: 6px; line-height: normal; }
+.form select {height: 34px; display: block; padding: 3px 6px; }
+.form option {height: 25px; }
+.form label {display: inline-block; color: #333; margin-right: 8px;}
+.form-stacked label { display: block; margin: 10px 0 0 0;  height:20px;}
+.form-aligned .control-group { margin: 10px 0; display: block; clear: both}
+.form-aligned .control-group label { min-width: 100px; height: 100%; float: left; text-align: right; line-height:32px; }
+.form-aligned .controls{display: inline-block;}
+.form-search{float: left;margin-left: 10px;}
+
+.form .required{color: red}
+.form p{display: inline-block;margin: 0}
+
+input.error {background: url(icon-fail.png) no-repeat right center;border: 1px solid red}
+div.validator-error{padding: 6px 12px;display: block;line-height: 180%;background: #ffe5ed;border-radius: 4px;color: darkred;margin:10px;}
+
+.mini { width: 60px;}
+.small {width: 90px;}
+.medium {width: 150px;}
+.large {width: 210px;}
+.xlarge {width: 270px;}
+.xxlarge {width: 530px;}
+.xfull{width:95%}
+
+.btn{
+	padding: 5px 15px;background-color: #f5f5f5;color: #333;display: inline-block;
+	border-radius: 3px 3px;cursor: pointer;margin: 5px;background-color: #0079bc;
+	color: #fff;border: none;display:line-break;
+}
+.btn:hover {
+	background-color: #00509d;
+	color: #fff;
+}
+
+.header {height: 60px;background-color: #efefef;overflow: hidden}
+.header .logo{margin-top:5px;font-size: 24px;font-weight:800}
+.setinfo {margin-top: 35px;}
+.setinfo span {padding: 0 8px;border-right: 1px solid #999;float: left;}
+.setinfo span.lastset{border-right:none}
+div.nav {background-color: #315ca1;height: 37px;min-width: 980px;}
+div.nav ul li{float:left;display: inherit}
+div.nav ul li a{line-height:37px; height:37px;/* padding:0 40px;*/padding: 0 24px;color:#fff; font-size:14px; display:inline-block;transition:ease all 0.4s;-webkit-transition:ease all 0.4s;}
+div.nav ul li a.on{background-color:#1e4789;box-shadow:0px 0px 10px rgba(0,0,0,0.3) inset;-webkit-box-shadow:0px 0px 10px rgba(0,0,0,0.3) inset;-o-box-shadow:0px 0px 10px rgba(0,0,0,0.3) inset;-moz-box-shadow:0px 0px 10px rgba(0,0,0,0.3) inset;text-decoration:none;}
+div.nav ul li a:hover{background-color:#1e4789; text-decoration:none;}
+
+div.nav ul li dl{display: none;position: absolute;background: #315ca1;z-index: 9999}
+div.nav ul li dl dd a.on{background:url(sprite.png) no-repeat 2px center #1e4789;}
+
+.main-panel {background: #fff;border: 1px solid #d4d4d4;min-height: 500px;zoom: 1;padding-top: 1px;padding-bottom: 10px;}
+.main-panel .avatar{padding: 2px;background: #FFF;float: right;border-bottom: 1px solid #DEE4C5;border-right: 1px solid #DEE4C5;}
+.title_line{border-bottom: 2px solid #D9E3EC;padding:5px 10px;margin: 0 10px; font-size: 14px;font-weight: bold;}
+
+.footer{line-height:25px;text-align: center;color: #707070;}
+
+.toolbtn{height:40px;text-align: right}
+
+.breadcrumb{line-height:25px;padding: 0 0 0 10px;}
+
+.list-table{width:100%}
+.list-table th {text-align: left;font-size: 12px;background: #f1f1f1;border-top: 1px solid #d6d6d6;border-bottom: 1px solid #d6d6d6;padding: 6px 0 6px 15px;font-weight: normal}
+.list-table td {overflow: hidden;height: 38px;text-overflow: ellipsis;border-bottom: 1px solid #e1e1e1;vertical-align: middle;padding-left: 15px;}
+.list-table tr:hover {background-color: #f4f7fa;}
+
+.div-pager{clear:both;padding:10px 15px;}
+.div-pager span,.div-pager a{line-height: 22px;height: 22px;display: inline-block;border: 1px solid #ccc;background: #fff;padding: 0 10px;margin-right: 3px;}
+.div-pager .current_page {background: #315ca1;color: #fff;font-weight: bold;}
+
+.select-cate{height:310px;width:200px; overflow: auto}
+.select-cate label{background:#f6f6f6;line-height:30px;height:30px;margin:0 0 5px 0;}
+
+
+#attach-btn{float: right;margin-right: 40px;}
+.upload-progress{clear: both}
+.upload-progress-item {
+	background-image: url('../Script/swfupload/progress.gif');
+	background-repeat: repeat-y;
+	background-position: -1000px 0;
+	background-color: #fff;
+	padding: 5px;
+	margin-bottom: 5px;
+	background-color: #F6F6F6;
+	-moz-border-radius: 2px;
+	height: 20px;
+}
+.upload-progress-item small{float: right}
+.upload-progress-item strong{float: left}
+.upload-progress-item a{font-size: 12px;}
+
+.upload-progress-item small .insert {
+	color: #00AA00;
+}
+.upload-progress-item small .delete {
+	color: #CC0000;
+}
+.btnCode {
+	background:transparent url(code.gif) no-repeat 16px 16px;
+	background-position:2px 2px;
+}
