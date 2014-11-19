@@ -1,0 +1,19 @@
+@charset "utf-8";
+.system_dialog,.system_dialog div.dialog_title,.system_dialog div.dialog_content,.system_dialog div.dialog_buttons{margin: 0;padding: 0}
+.system_dialog {display: block;z-index: 2043;width: auto;background: #FFF;border: 1px solid #b4b4b4;}
+.system_dialog div.dialog_title {background: #e6e6e6;color: #4c5a5f;border-bottom:1px solid #d9d9d9;font-size: 12px;font-family: Microsoft Yahei, ​Tahoma, ​Arial, ​Helvetica, ​STHeiti;font-weight: 800;line-height: 27px;height:30px;}
+.system_dialog div.dialog_title font{float: left;margin-left: 10px;}
+.system_dialog div.dialog_title a{float: right;display:block;height:20px;width: 20px;margin:5px; color: #4c5a5f;text-decoration: none; text-align: center; line-height: 20px;}
+.system_dialog div.dialog_title a:hover{color:red;}
+.system_dialog div.dialog_content{font-size: 12px;line-height:25px;padding:10px;}
+.system_dialog div.error,
+.system_dialog div.success,
+.system_dialog div.confirm{text-indent: 50px;background: url("icos.png") no-repeat ;}
+.system_dialog div.error{background-position:15px 6px;}
+.system_dialog div.success{background-position:15px -35px;}
+.system_dialog div.confirm{background-position:15px -74px;}
+
+
+.system_dialog div.dialog_buttons{text-align: right; padding: 5px 0;background: #E8E8E8}
+.system_dialog div.dialog_buttons input{margin-right: 10px;background: #F0F0F0;border-color: #FFFFFF #848484 #848484 #FFFFFF;border-style: solid;border-width: 1px;color: #333333;cursor: pointer;}
+.mask_layer{background-color: rgb(102, 102, 102); left: 0px; top: 0px; opacity: 0.5; z-index: 1; position: absolute;}
